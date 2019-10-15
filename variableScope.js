@@ -4,7 +4,6 @@ var myVar = 'Hello ';
 
 /*
 if (true) {
-
     var myVar = 'Hello ';
 }
 */
@@ -67,11 +66,28 @@ defineVar();
 let myVar = 'Hello';
 
 function changeVar() {
+    
+    let msg = 'Bonjour ';
 
-    myVar = 'Bonjour ';
+    myVar = msg;
 }
 
 changeVar();
+
+document.getElementById('result').textContent = msg + 'World !';
 */
 
-document.getElementById('result').textContent = myVar + 'World !';
+/*
+let reponse = prompt('Quel est votre age ?');
+
+while (reponse) {
+
+    alert(reponse);
+
+    reponse = prompt('Quel est votre age ?');
+}
+*/
+
+let msg = null || undefined || 0;
+
+document.getElementById('result').textContent = msg;

@@ -1,4 +1,15 @@
-let str = 'Le début de semaine est difficile pour la DTA';
+/*
+let phrase = "Dans_la_jungle_terrible_jungle";
+
+let words = phrase.split('_');
+
+for (let word of words) {
+
+	alert(word);
+}
+*/
+
+let str = 'Javascript un langage super pour apprendre à développer';
 
 str = str.toUpperCase();
 

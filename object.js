@@ -1,4 +1,3 @@
-
 /*
 let menu = {
 	entree: 'salade',
@@ -46,7 +45,10 @@ function changeMenu(menu) {
 
 function afficheMenu(menu) {
 
-    return(menu.entree + ' * ' + menu.plat + ' * ' + menu.dessert + (menu.bonus ? ' * ' + menu.bonus : ''));
+    return(menu.entree 
+            + ' * ' + menu.plat 
+            + ' * ' + menu.dessert 
+            + (menu.bonus ? ' * ' + menu.bonus : ''));
 }
 
 changeMenu(myMenu);
@@ -64,7 +66,10 @@ let myMenu = {
     
     affiche: function() {
 
-        return(this.entree + ' * ' + this.plat + ' * ' + this.dessert + (this.bonus ? ' * ' + this.bonus : ''));
+        return(this.entree 
+                + ' * ' + this.plat 
+                + ' * ' + this.dessert 
+                + (this.bonus ? ' * ' + this.bonus : ''));
     },
 
     change: function() {
