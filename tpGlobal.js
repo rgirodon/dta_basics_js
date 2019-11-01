@@ -27,6 +27,8 @@ array.push(p8);
 array.push(p9);
 array.push(p10);
 
+
+
 function buildPlayersMapByTeam(players) {
 
 	let result = new Map();
